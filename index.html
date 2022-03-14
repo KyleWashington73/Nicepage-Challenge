@@ -4,7 +4,6 @@
 <title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <style>
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -16,34 +15,34 @@
   font-size: 17px;
 }
 
-
-
 .header > {
   background-color: #666;
   text-align: center;
   font-size: 39px;
   color: white;
   padding: 0px;
-  margin: 0px;
+  margin-left: 0px;
 }
 
-
+.header-text-container {
+  text-align: center;
+  margin-top: 100px;
+  padding: 0px;
+} 
 
 </style>
 </head> 
-
 <body>
 
 <!-- SEARCH BAR -->
-<div class="topnav">
+  <div class="topnav">
     <a class="active" href="#home">LOGO</a>
     <input type="text" placeholder="Search..">
   </div>
 
-  <header><img src="./IMG/header-photo.jpg" alt="" style="width: 1127px; height: 1000px;"></header>
-<!-- HEADER -->
-  <div class="image-container"> 
-   
+  <!-- HEADER -->
+  <div> 
+    <header><img src="./IMG/header-photo.jpg" alt="" style="width: 100%; height: 1000px;"></header>
   </div> 
 
 <!-- IMAGE GRID -->
@@ -54,7 +53,14 @@
      <img src="./IMG/mission-image.jpg">
      <img src="./IMG/support-image.jpg">
     </div>
+  </div>
 
+    <!-- HEADER TEXT -->
+  <div class="header-text-container">
+    <h2 style="font-size: small;">WE ARE A GLOBAL PRACTICE</h2>
+    <p style="font-size: 30px;">We are a group of designers working together to<br> develop internationally compelling results. Our<br> clients share their unique visions and aspirations,<br> we partner with them creating life.</p>
+    <button style="background-color:#f52d47; color: rgb(245, 239, 239);">LEARN MORE</button>
+  </div>
 
 
 
